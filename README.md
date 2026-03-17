@@ -2,10 +2,6 @@
 
 GNOME Shell extension to upload files to Pixeldrain from the top panel with quick upload and recent links.
 
-Version: `0.1.0`
-
-Author: `zamkara`
-
 ## Features
 
 - Left click the panel icon to pick and upload files
@@ -19,7 +15,6 @@ Author: `zamkara`
 - The extension uses the Pixeldrain API and requires a user API key
 - Uploaded file links are copied to the clipboard automatically after a successful upload
 - Recent uploads are stored locally in the extension settings
-- Repository: `https://github.com/zamkara/pixeldrain-gnome-uploader`
 
 ## Preferences
 
