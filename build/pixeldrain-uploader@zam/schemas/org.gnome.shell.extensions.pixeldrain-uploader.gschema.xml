@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.pixeldrain-uploader" path="/org/gnome/shell/extensions/pixeldrain-uploader/">
+    <key name="api-key" type="s">
+      <default>''</default>
+      <summary>Pixeldrain API key</summary>
+      <description>API key used for authenticated Pixeldrain uploads.</description>
+    </key>
+    <key name="recent-uploads" type="s">
+      <default>'[]'</default>
+      <summary>Recent uploads</summary>
+      <description>JSON encoded list of recent Pixeldrain uploads.</description>
+    </key>
+  </schema>
+</schemalist>

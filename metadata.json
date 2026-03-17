@@ -1,0 +1,14 @@
+{
+  "name": "Pixeldrain Uploader",
+  "description": "GNOME Shell extension to upload files to Pixeldrain from the top panel with quick upload and recent links.",
+  "uuid": "pixeldrain-uploader@zam",
+  "settings-schema": "org.gnome.shell.extensions.pixeldrain-uploader",
+  "shell-version": [
+    "46",
+    "47",
+    "48",
+    "49"
+  ],
+  "version": 1,
+  "url": "https://github.com/zamkara/pixeldrain-gnome-uploader"
+}
