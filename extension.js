@@ -44,6 +44,8 @@ class PixeldrainUploaderButton extends PanelMenu.Button {
 
         this._extension = extension;
         this._settings = extension.getSettings();
+        // Clipboard access is required to copy upload URLs to the user's clipboard
+        // after a successful upload — this is the extension's core UX feature.
         this._clipboard = St.Clipboard.get_default();
         this._uploads = safeParseUploads(this._settings.get_string('recent-uploads'));
         this._uploadQueue = [];
