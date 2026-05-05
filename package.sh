@@ -20,6 +20,9 @@ cp "${ROOT}/helpers/pick-files.js" "${STAGE_DIR}/helpers/"
 cp "${ROOT}/icons/pixeldrain-symbolic.svg" "${STAGE_DIR}/icons/"
 cp "${ROOT}/schemas/org.gnome.shell.extensions.pixeldrain-uploader.gschema.xml" "${STAGE_DIR}/schemas/"
 
-(cd "${STAGE_DIR}" && bsdtar -a -cf "${ZIP_PATH}" .)
+bsdtar -a -cf "${ZIP_PATH}" \
+    -C "${STAGE_DIR}" \
+    extension.js prefs.js metadata.json stylesheet.css README.md LICENSE \
+    helpers icons schemas
 
 printf 'Created %s\n' "${ZIP_PATH}"
